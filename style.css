@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top right, #ffcccc, #ffe6f0);
+  overflow: hidden;
+  text-align: center;
+}
+
+#lockScreen {
+  padding-top: 100px;
+}
+
+.envelope {
+  margin-top: 50px;
+}
+
+.letter {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  display: inline-block;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+canvas#hearts {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.9);}
+  to {opacity: 1; transform: scale(1);}
+}

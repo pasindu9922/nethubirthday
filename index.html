@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Nethu</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="lockScreen">
+    <h2>🔐 Enter Password</h2>
+    <input type="password" id="passwordInput" placeholder="Password"/>
+    <button onclick="checkPassword()">Unlock</button>
+  </div>
+
+  <div id="content" style="display:none;">
+    <audio autoplay loop>
+      <source src="assets/song.mp3" type="audio/mpeg"/>
+    </audio>
+    <div class="envelope">
+      <div class="letter">
+        <h1>🎉 Happy Birthday Nethu 🎉</h1>
+        <img src="assets/nethu.jpg" alt="Nethu" class="photo"/>
+        <p>May your day be filled with love, joy, and sweet surprises. ❤️</p>
+        <p>With all my heart,<br/>Pasindu 💌</p>
+      </div>
+    </div>
+    <canvas id="hearts"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
